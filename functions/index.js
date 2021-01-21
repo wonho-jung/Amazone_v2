@@ -24,4 +24,4 @@ app.post("/payments/create", async (request, response) => {
 });
 
 exports.api = functions.https.onRequest(app);
-//http://localhost:5001/v2-cb8fa/us-central1/api
+// http://localhost:5001/payment-5ab75/us-central1/api
